@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 100vh;
+}
+div img{
+    height: 5%;
+    width: 8%;
+    float: right;
+}
+.container{
+    border: 5px solid black;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(164, 179, 209);
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Tiro Tamil', serif;
+}
+.container h4{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+.t{
+    color: rgb(164, 179, 209);
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+    width: 100%;
+}
+.deg,.res{
+    display: flex;
+    flex-direction: row;
+}
+.dval,.rval{
+    width:50%;
+    text-align: right;
+    margin-left: 20%;
+}
+.degtyp,.restyp{
+    width: 50%;
+    text-align: left;
+}
+.convert {
+    text-align: center;
+    margin: 3%;
+}
+.convert button{
+    width: 75%;
+    padding: 1%;
+    font-size: 30px;
+}
+.convert button:hover{
+    font-size: 32px;
+    background-color: rgb(55, 44, 44);
+    color: white;
+}
+input , select{
+    font-size: 30px;
+    padding: 1%;
+    border: 0.5px solid black;
+}
+
+#resultval{
+    background-color: black;
+}

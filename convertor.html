@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertor</title>
+    <link rel="stylesheet" href="./Convertor.css">
+</head>
+<body>
+    <div class="container">
+        <div class="thermometer">
+            <img src ='./thermometer.webp'>
+        </div>
+        <h1>Temperature Convertor</h1>
+        <hr>
+        <div class="sub">
+            <div class="deg">
+                <div class="dval" >
+                    <h4>Degrees</h4>
+                    <input type = 'text' id="dval" name="input" placeholder="0" required/>
+                </div>
+                <div class="degtyp" >
+                    <h4 class="t">Type</h4>
+                    <select id="dtype">
+                        <option value="C" selected>Celsius</option>
+                        <option value="F">Fahrenhite</option>
+                        <option value="K">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="res" >
+                <div class="rval" >
+                    <h4>Result</h4>
+                    <input type='text' name="result" placeholder="0"  id='rval' disabled/>
+                </div>
+                <div class="restyp" >
+                    <h4 class="t">Type</h4>
+                    <select id="rtype">
+                        <option value="C" selected>Celsius</option>
+                        <option value="F">Fahrenhite</option>
+                        <option value="K">Kelvin</option>
+                    </select>
+                </div>
+            </div>
+            <div class="convert">
+                <button onClick="converter()">Convert</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./Convertor.js"></script>
+
+</body>
+</html>
